@@ -11,13 +11,17 @@
 
     <!-- build:css({app,.tmp}) /css/main.css -->
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/_bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
+
     <!-- endbuild -->
 
     <!-- build:js(app) /js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <script src="/_bower_components/jquery/jquery.min.js"></script>
+    <script src="/_bower_components/bootstrap/js/dropdown.js"></script>
     <!-- endbuild -->
 
   </head>
@@ -25,6 +29,8 @@
     <!--[if lt IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    {% include navbar.html %}
+    {% include our-services.html %}
 
     {{ content }}
 

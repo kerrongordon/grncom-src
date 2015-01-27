@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="">
+    {% for ourservices in site.data.home.ourservices %}
+    <div class="col-sm-6 col-md-4 text-center space">
+      <div class="">
+        <img class="img-icon" src="{{ site.baseurl }}img/icons/{{ ourservices.image }}" alt="{{ ourservices.image }}">
+        <div class="caption">
+          <h4>{{ ourservices.title }}</h4>
+          <p>{{ ourservices.description }}</p>
+          <p><a href="{{ ourservices.link }}" class="btn btn-primary" role="button">View details »</a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+

@@ -1,0 +1,32 @@
+#Our Services
+
+ourservices:
+- {title: 'Networking Services',
+   image: 'icon-ios7-cloud-outline.svg',
+   description: 'Our lead staff has several years of experience in the field of networking and carries various certifications from CompTIA, Cisco and Juniper. We are fully proficient and network Savvy, whether you need a simple network connection.',
+   link: ''}
+
+- {title: 'Computer Forensics',
+   image: 'icon-ios7-box-outline.svg',
+   description: 'Computer forensics is the acquisition, examination, and reporting of information found on computers and networks that pertain to a criminal or civil investigation Computer Forensic Services we provide training and support',
+   link: ''}
+
+- {title: 'security services',
+   image: 'icon-ios7-unlocked-outline.svg',
+   description: 'In today’s technological environment, there is too much vulnerability, threats and risks that are unseen and ignored. These vulnerabilities if exploited can pose a danger to an individual, a company an organization or government.',
+   link: ''}
+
+- {title: 'Web Design and Web Ad service',
+   image: 'icon-ios7-monitor-outline.svg',
+   description: 'The Internet is used to advertise and get coverage for your business, having a professional designed and updated website is a vital and key part of in ensuring that your business stays ahead.',
+   link: ''}
+
+- {title: 'Staff Training',
+   image: 'icon-ios7-compose-outline.svg',
+   description: 'We believe that having a fully qualified and trained staff is vital and most important for every business to grow and to gain profitability. We also offer onsite training for companies and organization for staff development.',
+   link: ''}
+
+- {title: 'Virtualization',
+   image: 'icon-ios7-albums-outline.svg',
+   description: 'Virtualize Your IT Infrastructure. Virtualization enables today’s X86 computers to run multiple operating systems and applications, making your infrastructure simpler and more efficient.',
+   link: ''}
